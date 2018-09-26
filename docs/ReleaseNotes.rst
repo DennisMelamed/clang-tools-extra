@@ -106,6 +106,13 @@ Improvements to clang-tidy
   Detects usage of magic numbers, numbers that are used as literals instead of
   introduced via constants or symbols.
 
+- New :doc:`misc-class-inherit-from-struct
+  <clang-tidy/checks/misc-class-inherit-from-struct>` check.
+
+  Detects instances of classes inheriting from structs as that might lead to
+  unintended member access issues.
+
+
 Improvements to include-fixer
 -----------------------------
 
